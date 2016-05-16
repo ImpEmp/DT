@@ -1,0 +1,66 @@
+
+print("Hello there test subject")
+tresure = 0
+import time
+import random
+from random import randint
+time.sleep(1)
+print("Keep good notes and track your movment and you might just escape")
+print(" But before we start i need you to take a quick survey")
+#The portrayals
+speed = randint(1,10)+ int(input('On a scale of 1-10 how well can you run?'))
+fight = randint(1,10)+ int(input('On a scale of 1-10 much do you hate spiders?'))
+hunger = int(input('How many potatos can you eat in one sitting?'))
+wisdom = int(input('What is your approxomint IQ?'))
+treasure = 0
+hunger = 0
+health = 10
+
+#The start
+time.sleep(2)
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print("*You wake up in a unfamiler place*")
+time.sleep(1)
+print("*You think to yourself that you need to start moving*")
+print("<<<<<you go forward and begin your adventure>>>>>")
+
+
+x = input('Interaction')
+
+if x == 'w':
+  print("You see a enormous spider in front of you")
+  print("This is your health")
+  print("10")
+  run = input('Press 1 to run or 2 to stay and try to fight')
+  if run == '1':
+      print("You decide to run")
+      import random
+      if randint(1, 20) < speed:
+       print("You have successfully run away")
+      else:
+       print("You trip and fall, breaking your head open and dashing your brains across the stone flooring")
+       print("Below is your score")
+       print(treasure)
+       print("good job meat bag")
+  else:
+      print("You foolishly decide to fight")
+      if speed+fight+fight > randint(1,500):
+          print("you bet the monster")
+      else:
+          print("you got hurt")
+          
+          print("8")
+          
+if x == ' ':
+    treasure + 1
+    print(treasure)
+
+if x == 'a':
+    key + 1
+    print(key)
+
+if x == 'g':
+    print("You have managed to escape somehow, Congradulations")
