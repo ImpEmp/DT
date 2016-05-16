@@ -67,4 +67,6 @@ if x == 'a':
 if x == 'g':
     print("You see a door in front of you")
     time.sleep(1)
+    print("You decide to go forward")
+    time.sleep(1)
     print("You have managed to escape somehow, Congradulations")
