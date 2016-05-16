@@ -34,7 +34,7 @@ if x == 'w':
   print("You see a enormous spider in front of you")
   print("This is your health")
   print("10")
-  run = input('Press 1 to run or 2 to stay and try to fight')
+  run = input('Press 1 to run or 2 to stay and try to fight or you challange the spider to a game of Dance Dance revolution')
   if run == '1':
       print("You decide to run")
       import random
