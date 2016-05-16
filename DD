@@ -63,4 +63,5 @@ if x == 'a':
     print(key)
 
 if x == 'g':
+    print("You see a door in front of you")
     print("You have managed to escape somehow, Congradulations")
