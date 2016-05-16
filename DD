@@ -1,32 +1,11 @@
 
-print("Hello there test subject")
-tresure = 0
 import time
 import random
 from random import randint
-time.sleep(1)
-print("Keep good notes and track your movment and you might just escape")
-print(" But before we start i need you to take a quick survey")
-#The portrayals
-speed = randint(1,10)+ int(input('On a scale of 1-10 how well can you run?'))
-fight = randint(1,10)+ int(input('On a scale of 1-10 much do you hate spiders?'))
-hunger = int(input('How many potatos can you eat in one sitting?'))
-wisdom = int(input('What is your approxomint IQ?'))
+
 treasure = 0
 hunger = 0
 health = 10
-
-#The start
-time.sleep(2)
-print(" ")
-print(" ")
-print(" ")
-print(" ")
-print("*You wake up in a unfamiler place*")
-time.sleep(1)
-print("*You think to yourself that you need to start moving*")
-print("<<<<<you go forward and begin your adventure>>>>>")
-
 
 x = input('Interaction')
 
