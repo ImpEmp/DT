@@ -45,7 +45,7 @@ if x == 'w':
        print("Below is your score")
        print(treasure)
        print("good job meat bag")
-  else:
+  elif run == '2':
       print("You foolishly decide to fight")
       if speed+fight+fight > randint(1,500):
           print("you bet the monster")
@@ -53,6 +53,8 @@ if x == 'w':
           print("you got hurt")
           
           print("8")
+  else: 
+      print("You challange the giant spider to a match of Dance dance revolution")
           
 if x == ' ':
     treasure + 1
